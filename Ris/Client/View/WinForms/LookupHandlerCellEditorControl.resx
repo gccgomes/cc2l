@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_suggestBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_suggestBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_suggestBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_suggestBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;_suggestBox.Name" xml:space="preserve">
+    <value>_suggestBox</value>
+  </data>
+  <data name="&gt;&gt;_suggestBox.Type" xml:space="preserve">
+    <value>ClearCanvas.Desktop.View.WinForms.SuggestComboBox, ClearCanvas.Desktop.View.WinForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_suggestBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_suggestBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_findButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="_findButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="_findButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, -1</value>
+  </data>
+  <data name="_findButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 2, 2</value>
+  </data>
+  <data name="_findButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="_findButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;_findButton.Name" xml:space="preserve">
+    <value>_findButton</value>
+  </data>
+  <data name="&gt;&gt;_findButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_findButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_findButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LookupHandlerCellEditorControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
